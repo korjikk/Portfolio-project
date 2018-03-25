@@ -1,0 +1,97 @@
+body{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header p{
+    text-align:right;
+    text-transform: uppercase;
+}
+
+.upper-paragraph{
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.lower-paragraph{
+    font-size: 14px;
+}
+
+.horizontal-line{
+    height: 0.15rem;
+    background-color: #7d97ad;
+}
+
+main{
+    margin-top: 25px;
+}
+
+.main-image-container{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+main h3{
+    color:#7d97ad;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+footer p:first-of-type{
+    margin-top:20px;
+}
+
+footer p{
+    margin-bottom:0px;
+}
+footer p:last-of-type {
+    padding-bottom:50px;
+}
+
+main h5{
+    text-transform: uppercase;
+}
+
+#about-me-container{
+    margin-bottom:30px;
+}
+
+i{
+    color:#7d97ad;
+}
+i:hover{
+    color: #007bff;
+    cursor: pointer;
+}
+@media (min-width: 767px){
+    .upper-paragraph{
+        font-size: 36px;
+    }
+    
+    .lower-paragraph{
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 767px) and (max-width:769px) { 
+    h5{
+        font-size:24px;
+    }
+    h3{
+        font-size:32px;
+    }
+
+    .navbar{
+        font-size: 1.5em;
+    }
+    #about-me-container{
+        font-size: 1.4em;
+    }
+ }
